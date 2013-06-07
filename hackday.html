@@ -1,20 +1,35 @@
 <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
 <html> <head>
 <title>Hackday thingy</title>
+<script src="tweener.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 <script type='text/javascript' src='md5.js'></script>
 <script type='text/javascript' src='hackday.js'></script>
 <style>
 canvas { border: 1px solid black; }
+@font-face {
+    font-family: 'press_start_2pregular';
+    src: url('pressstart2p-webfont.eot');
+    src: url('pressstart2p-webfont.eot?#iefix') format('embedded-opentype'),
+         url('pressstart2p-webfont.woff') format('woff'),
+         url('pressstart2p-webfont.ttf') format('truetype'),
+         url('pressstart2p-webfont.svg#press_start_2pregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+				font-family: 'press_start_2pregular';
+}
+div
+{
+font-family:'press_start_2pregular';
+}
 </style>
 </head>
 
-<body onload="start_game();">
-<h1>The Thingy!</h1>
+<body onload="start_game();" bgcolor="#000000">
 <canvas id='thingy' width=800 height=600>
 </canvas>
-
-
-<hr>
-<address></address>
-<!-- hhmts start -->Last modified: Tue Jun  4 19:16:31 EDT 2013 <!-- hhmts end -->
+<!-- hhmts start -->Last modified: Fri Jun  7 10:35:52 EDT 2013 <!-- hhmts end -->
 </body> </html>
